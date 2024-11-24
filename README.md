@@ -24,9 +24,9 @@ Exploring Various Scheduling Algorithms using xv6
 
 ## Simulation Setup
 The xv6 Folder contains 2 Simulation Files:
-1) simulate.c <br>
+1) <a href="https://github.com/shalaka-thorat/Scheduling-in-xv6/blob/main/xv6/simulate.c">simulate.c</a> <br>
    This file can be used for testing Round Robin and FCFS Algorithms.
-2) simulate_priority.c <br>
+2) <a href="https://github.com/shalaka-thorat/Scheduling-in-xv6/blob/main/xv6/simulate_priority.c">simulate_priority.c</a> <br>
    This file can be used for testing Priority with and without Aging Algorithm.
 You need to modify the scheduler function (In File <b>proc.c</b>) to test any specific Algorithm mentioned above 4.<br>
 
@@ -34,21 +34,22 @@ Next, you can explore the following additional 2 parameters and analyze their ef
 1) Varied Arrival Times
 2) Varied Workloads
 
-The below screenshot shows the current setup for the Simulation File, i.e. Same Workload and Arrival Time of Child Processes<br><br>
-<img src="https://github.com/shalaka-thorat/Scheduling-in-xv6/blob/main/Simulation-Setup/singular.png" height="300" width="400">
+<ul>
+ <li>The below screenshot shows the current setup for the Simulation File, i.e. Same Workload and Arrival Time of Child Processes<br><br>
+<img src="https://github.com/shalaka-thorat/Scheduling-in-xv6/blob/main/Simulation-Setup/singular.png" height="300" width="400"></li>
 
-In order, to incorporate Varied Arrival Times, the Simulation File main() should be as follows:<br><br>
+<li>In order, to incorporate Varied Arrival Times, the Simulation File main() should be as follows:<br><br>
 <img src="https://github.com/shalaka-thorat/Scheduling-in-xv6/blob/main/Simulation-Setup/varrival.png" height="300" width="400"><br>
-This code block makes sure that child processes are created with some delays.<br><br>
+This code block makes sure that child processes are created with some delays.<br><br></li>
 
-In order, to incorporate Varied Workloads, the Simulation File main() should be as follows:<br><br>
+<li>In order, to incorporate Varied Workloads, the Simulation File main() should be as follows:<br><br>
 <img src="https://github.com/shalaka-thorat/Scheduling-in-xv6/blob/main/Simulation-Setup/vworkload.png" height="300" width="400"><br>
-This code block provides a mechanism to provide different complexity of workload to each process.<br><br>
+This code block provides a mechanism to provide different complexity of workload to each process.<br><br></li></ul>
 
 You can modify this workload-to-process mapping, as well as priority-to-process mapping using these global arrays from Simulation Files:<br><br>
 <img width="215" alt="Priority and Workload Config" src="https://github.com/user-attachments/assets/f4fde2da-a09f-414a-a39f-541f8797312c">
 
 ## Experiments and Output:
 
-The <a href="https://github.com/shalaka-thorat/Scheduling-in-xv6/blob/main/Presentation_Slides.pdf">Presentation Slides</a> give an overview and analysis of the experiments performed.<br>
+The <a href="https://github.com/shalaka-thorat/Scheduling-in-xv6/blob/main/Presentation_Slides.pdf">Presentation Slides</a> give an overview and analysis of the experiments performed.<br><br>
 The <a href="https://github.com/shalaka-thorat/Scheduling-in-xv6/tree/main/Output">Output Folder</a> contains output screenshots for each of the settings discussed above. This folder also contains the experimental readings and observations.<br>
