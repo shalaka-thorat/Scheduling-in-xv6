@@ -1,7 +1,7 @@
 # Scheduling-Algorithms-in-xv6
 Exploring Various Scheduling Algorithms using xv6
 
-<img style="justify:center;" src="https://github.com/user-attachments/assets/bc676e72-c333-41b8-a3b9-a14df2995f77" height="200" width="300">
+<img style="justify:center;" src="https://github.com/user-attachments/assets/bc676e72-c333-41b8-a3b9-a14df2995f77" height="300" width="400">
 
 
 ## Overview
