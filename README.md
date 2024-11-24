@@ -49,6 +49,11 @@ This code block provides a mechanism to provide different complexity of workload
 You can modify this workload-to-process mapping, as well as priority-to-process mapping using these global arrays from Simulation Files:<br><br>
 <img width="215" alt="Priority and Workload Config" src="https://github.com/user-attachments/assets/f4fde2da-a09f-414a-a39f-541f8797312c">
 
+## Executing on xv6:
+1) Navigate to the xv6 Folder using the Terminal.<br>
+2) Type <b>make qemu-nox</b> in the Terminal to boot xv6 and open a shell.<br>
+3) Run <i>'simulate'</i> and <i>simulate_priority'</i> program executables for respective Scheduling Algorithms.
+
 ## Experiments and Output:
 
 The <a href="https://github.com/shalaka-thorat/Scheduling-in-xv6/blob/main/Presentation_Slides.pdf">Presentation Slides</a> give an overview and analysis of the experiments performed.<br><br>
